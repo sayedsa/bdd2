@@ -42,7 +42,15 @@ public void user_clicks_login_button() {
 
 @Then("user is navigated to the login page")
 public void user_is_navigated_to_the_login_page() {
-   BaseClass.tearDown();
+  
 }
+
+@Then("user logs out of account")
+public void user_logs_out_of_account() {
+	Lobject.clickLogoutBttn();
+	
+	 BaseClass.tearDown();
+}
+
 }
 

@@ -1,10 +1,13 @@
 package pageObjects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import core.BaseClass;
 
@@ -17,42 +20,33 @@ public class RegisterAccountPageObjects extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(how = How.XPATH, using = "//*[@id=\"Top_bar\"]/div/div/div[2]/div/a[4]")
-	private WebElement myAccount;
-
-	@FindBy(how = How.XPATH, using = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a")
-	private WebElement clickRegister;
-
-	@FindBy(how = How.XPATH, using = "//*[@id=\"input-firstname\"]")
-	private WebElement firstName;
+	@FindBy(how = How.XPATH, using = "//li[@class='dropdown']/child::a/span[1]")
+	private WebElement myAccount;     
 	
+	@FindBy(how = How.CSS, using = "#top-links > ul > li.dropdown.open > ul > li:nth-child(1) > a")
+	private WebElement clickRegister; //ul[@class='dropdown-menu dropdown-menu-right']/child::li[1]
 	
-	//@FindBy(how = How.XPATH, using = "//*[@id=\"input-lastname\"]")
-	//private WebElement lastName;
+	@FindBy(id = "input-firstname")
+	private WebElement firstName;          
 	
 	@FindBy(id = "input-lastname")
 	private WebElement lastName;
-	@FindBy(how = How.XPATH, using = "//input[@name='wpwc_custom_registration_field_127']")
-	private WebElement enterAddress;
-
-	//@FindBy(how = How.XPATH, using = "//*[@id=\"input-email\"]")
-	//private WebElement enterEmail;
+	
 	@FindBy(id = "input-email")
 	private WebElement enterEmail;
 	
-	@FindBy(how = How.XPATH,using = "//*[@id=\'input-telephone\']")
+	@FindBy(id = "input-telephone")
 	private WebElement enterTelephone;
 	
-	//@FindBy(how = How.XPATH, using = "//*[@id=\'account\']/div[5]/div/select")
-//	private WebElement country;
+
 	@FindBy(name = "country")
 	private WebElement country;
 	
 	
-	@FindBy(how = How.XPATH, using = "//input[@id='reg_password']")
+	@FindBy(id = "input-password")
 	private WebElement enterPassword;
 
-	@FindBy(how = How.XPATH, using = "//input[@id='reg_password']")
+	@FindBy(id= "input-confirm")
 	private WebElement enterConfPassword;
 	
 	@FindBy(how = How.XPATH, using = "//input[@name='newsletter' and@value='1']")
@@ -64,14 +58,26 @@ public class RegisterAccountPageObjects extends BaseClass {
 	@FindBy(id = "signupbtn")
 	private WebElement continueBttn;
 	
-	
-	public void clickOnMyAccount() {
+	@FindBy(how=How.XPATH, using = "//div[@class='row']/child::div[@id='content']/h1[text()='Your Account Has Been Created!']")
+	private WebElement textMessage;
+	public void clickOnMyAccount() throws InterruptedException {
 
 		myAccount.click();
+		Thread.sleep(3000);
 }
 	
-	public void clickRegister() {
+	public void clickRegister() throws InterruptedException {
+	
+		
+	//Actions a = new Actions(driver);
+	//a.moveToElement(clickRegister).click().build().perform();
+		
+		
+		
 		clickRegister.click();
+		//clickRegister.submit();
+		//clickRegister.sendKeys(Keys.ENTER);
+	
 	}
 	
 	public void enterFirstName(String firstname) {
@@ -90,13 +96,13 @@ public class RegisterAccountPageObjects extends BaseClass {
 	public void selectCountry() {
 		country.click();
 		Select s = new Select(country);
-		s.selectByValue("Afghanistan");
+		s.selectByValue("Albania");
 	}
 	public void enterPassword(String pass) {
 		enterPassword.sendKeys(pass);
 	}
 	public void enterConfPassword(String Confpass) {
-		enterPassword.sendKeys(Confpass);
+		enterConfPassword.sendKeys(Confpass);
 	}
 	
 	public void clickSubscribe() {
@@ -108,5 +114,14 @@ public class RegisterAccountPageObjects extends BaseClass {
 	
 	public void clickContinueBttn() {
 		continueBttn.click();
+	}
+	
+	public void accountCreated(String message) {
+		
+		textMessage.isDisplayed();
+	
+		String ActualpageTitle =driver.getTitle();
+		String expTitle = "Register";
+		Assert.assertEquals(ActualpageTitle, expTitle);
 	}
 }

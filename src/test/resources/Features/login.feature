@@ -8,6 +8,7 @@ Feature: Login functionality
     And user enters 'sadatsayedibrahim@gmail.com'  and 'test123'
     And user clicks login button
     Then user is navigated to the login page
+    Then user logs out of account
 
   @test2
   Scenario Outline: I want to login to my Account

@@ -47,3 +47,116 @@
 2023-08-01 06:53:37,010 - Logger_File -INFO - user is on the home page
 2023-08-01 06:56:54,202 - Logger_File -INFO - user is on the home page
 2023-08-01 06:57:03,123 - Logger_File -INFO - user is on the home page
+2023-08-01 11:49:39,408 - Logger_File -INFO - user is on the home page
+2023-08-01 11:49:47,957 - Logger_File -INFO - user is on the home page
+2023-08-01 12:09:50,488 - Logger_File -INFO - clicking on register
+2023-08-01 12:26:37,418 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 12:33:03,030 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 12:33:05,325 - Logger_File -INFO - clicking on register
+2023-08-01 12:36:04,837 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 12:36:05,443 - Logger_File -INFO - clicking on register
+2023-08-01 12:38:23,031 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 12:38:28,529 - Logger_File -INFO - clicking on register
+2023-08-01 13:06:53,678 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 13:06:58,653 - Logger_File -INFO - clicking on register
+2023-08-01 13:07:16,886 - Logger_File -INFO - filling personal info
+2023-08-01 13:08:06,385 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 13:08:11,871 - Logger_File -INFO - clicking on register
+2023-08-01 13:08:50,863 - Logger_File -INFO - filling personal info
+2023-08-01 13:09:31,670 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 13:09:36,727 - Logger_File -INFO - clicking on register
+2023-08-01 13:16:04,513 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 13:16:09,868 - Logger_File -INFO - clicking on register
+2023-08-01 13:26:05,447 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 13:26:11,134 - Logger_File -INFO - clicking on register
+2023-08-01 13:30:16,182 - Logger_File -INFO - user is on the home page
+2023-08-01 13:33:52,193 - Logger_File -INFO - user is on the home page
+2023-08-01 13:37:47,055 - Logger_File -INFO - user is on the home page
+2023-08-01 15:09:22,377 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:09:27,670 - Logger_File -INFO - clicking on register
+2023-08-01 15:13:56,169 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:14:01,347 - Logger_File -INFO - clicking on register
+2023-08-01 15:17:00,434 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:17:05,742 - Logger_File -INFO - clicking on register
+2023-08-01 15:18:43,821 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:18:49,488 - Logger_File -INFO - clicking on register
+2023-08-01 15:19:40,379 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:19:47,431 - Logger_File -INFO - clicking on register
+2023-08-01 15:22:30,974 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:22:36,258 - Logger_File -INFO - clicking on register
+2023-08-01 15:23:49,061 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:23:57,397 - Logger_File -INFO - clicking on register
+2023-08-01 15:25:20,964 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:25:29,720 - Logger_File -INFO - clicking on register
+2023-08-01 15:29:56,356 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 15:30:05,199 - Logger_File -INFO - clicking on register
+2023-08-01 22:06:40,649 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:06:49,815 - Logger_File -INFO - clicking on register
+2023-08-01 22:09:59,426 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:10:08,128 - Logger_File -INFO - clicking on register
+2023-08-01 22:11:17,469 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:11:26,246 - Logger_File -INFO - clicking on register
+2023-08-01 22:13:02,116 - Logger_File -INFO - user is on the home page
+2023-08-01 22:16:02,966 - Logger_File -INFO - user is on the home page
+2023-08-01 22:16:35,743 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:16:44,658 - Logger_File -INFO - clicking on register
+2023-08-01 22:18:43,737 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:18:52,413 - Logger_File -INFO - clicking on register
+2023-08-01 22:19:57,909 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:20:06,743 - Logger_File -INFO - clicking on register
+2023-08-01 22:20:57,795 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:21:06,268 - Logger_File -INFO - clicking on register
+2023-08-01 22:22:14,884 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:22:23,448 - Logger_File -INFO - clicking on register
+2023-08-01 22:24:53,001 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:24:56,435 - Logger_File -INFO - filling personal info
+2023-08-01 22:24:57,755 - Logger_File -INFO - subscribing to newsletter
+2023-08-01 22:24:57,847 - Logger_File -INFO - checking the privacy policy
+2023-08-01 22:24:57,924 - Logger_File -INFO - clicking continue button
+2023-08-01 22:24:58,067 - Logger_File -INFO - account succesfully created
+2023-08-01 22:29:53,511 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:29:57,039 - Logger_File -INFO - filling personal info
+2023-08-01 22:29:58,183 - Logger_File -INFO - subscribing to newsletter
+2023-08-01 22:29:58,262 - Logger_File -INFO - checking the privacy policy
+2023-08-01 22:29:58,334 - Logger_File -INFO - clicking continue button
+2023-08-01 22:29:58,447 - Logger_File -INFO - account succesfully created
+2023-08-01 22:32:10,149 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:32:13,633 - Logger_File -INFO - filling personal info
+2023-08-01 22:32:14,750 - Logger_File -INFO - subscribing to newsletter
+2023-08-01 22:32:14,826 - Logger_File -INFO - checking the privacy policy
+2023-08-01 22:32:14,894 - Logger_File -INFO - clicking continue button
+2023-08-01 22:32:15,015 - Logger_File -INFO - account succesfully created
+2023-08-01 22:39:22,364 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:39:25,805 - Logger_File -INFO - filling personal info
+2023-08-01 22:39:26,812 - Logger_File -INFO - subscribing to newsletter
+2023-08-01 22:39:26,887 - Logger_File -INFO - checking the privacy policy
+2023-08-01 22:39:26,947 - Logger_File -INFO - clicking continue button
+2023-08-01 22:39:27,023 - Logger_File -INFO - account succesfully created
+2023-08-01 22:56:41,334 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:56:45,176 - Logger_File -INFO - filling personal info
+2023-08-01 22:56:46,087 - Logger_File -INFO - subscribing to newsletter
+2023-08-01 22:56:46,150 - Logger_File -INFO - checking the privacy policy
+2023-08-01 22:56:46,224 - Logger_File -INFO - clicking continue button
+2023-08-01 22:56:46,307 - Logger_File -INFO - account succesfully created
+2023-08-01 22:58:03,806 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:58:07,440 - Logger_File -INFO - filling personal info
+2023-08-01 22:58:08,518 - Logger_File -INFO - subscribing to newsletter
+2023-08-01 22:58:08,592 - Logger_File -INFO - checking the privacy policy
+2023-08-01 22:58:08,657 - Logger_File -INFO - clicking continue button
+2023-08-01 22:58:08,737 - Logger_File -INFO - account succesfully created
+2023-08-01 22:59:31,969 - Logger_File -INFO - clicking on MyAccount
+2023-08-01 22:59:35,394 - Logger_File -INFO - filling personal info
+2023-08-01 22:59:36,383 - Logger_File -INFO - subscribing to newsletter
+2023-08-01 22:59:36,453 - Logger_File -INFO - checking the privacy policy
+2023-08-01 22:59:36,523 - Logger_File -INFO - clicking continue button
+2023-08-01 22:59:36,604 - Logger_File -INFO - account succesfully created
+2023-08-02 15:20:44,678 - Logger_File -INFO - clicking on MyAccount
+2023-08-02 15:20:48,251 - Logger_File -INFO - filling personal info
+2023-08-02 15:20:49,584 - Logger_File -INFO - subscribing to newsletter
+2023-08-02 15:20:49,657 - Logger_File -INFO - checking the privacy policy
+2023-08-02 15:20:49,729 - Logger_File -INFO - clicking continue button
+2023-08-02 15:20:49,821 - Logger_File -INFO - account succesfully created
+2023-08-02 15:25:33,604 - Logger_File -INFO - user is on the home page
+2023-08-02 15:25:42,073 - Logger_File -INFO - user is on the home page
+2023-08-02 15:25:50,400 - Logger_File -INFO - user is on the home page
+2023-08-02 15:47:20,943 - Logger_File -INFO - user is on the home page

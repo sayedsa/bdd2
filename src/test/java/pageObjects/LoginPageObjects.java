@@ -33,6 +33,9 @@ public class LoginPageObjects extends BaseClass  {
 	@FindBy(how=How.XPATH, using = "//input[@id='signinbtn']")
 	private WebElement LoginButton;
 	
+	@FindBy(how = How.XPATH, using = "//a[text()='logout']")
+	private WebElement LogoutButton;
+	
 
 	public void clickMyAccount() {
 		
@@ -53,6 +56,10 @@ public class LoginPageObjects extends BaseClass  {
 	
 	public void clickLoginBttn() {
 		LoginButton.click();
+	}
+	
+	public void clickLogoutBttn() {
+		LogoutButton.click();
 	}
 }
 
